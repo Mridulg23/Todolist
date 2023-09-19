@@ -1,0 +1,78 @@
+*{
+  margin:0%;
+  padding:0%;
+  font-family: 'Roboto', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+nav{
+  background-color: blue;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+.container{
+  background-color: rgb(212, 196, 178);
+  width: 70%;
+  margin: auto;
+  min-width: 100vh;
+  padding: 4vmax 8vmax;
+  box-sizing:border-box;
+}
+.container > h1{
+  margin: 30px;
+  text-align: center;
+
+
+}
+
+.container > form{
+  display: flex;
+  flex-direction: column;
+}
+input,textarea,button{
+  padding: 20px;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 5px;
+  margin: 10px 0;
+  font-size: 1.2rem;
+
+}
+button{
+  background-color:black;
+  cursor: pointer;
+  color: white;
+  border: none;
+
+}
+span{
+  color: rgba(0, 0, 0, 0.301);
+}
+.Task{
+  display:flex;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 20px 0;
+
+}
+
+.Task > div{
+  width: 100%;
+}
+.Task button{
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  font-size: 1.6rem;
+  background-color: crimson;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.Task button:hover{
+  background-color: red;
+}
